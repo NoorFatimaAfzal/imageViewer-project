@@ -5,7 +5,6 @@ import tkinter as tk
 root = Tk()
 root.title("Image Viewer")
 
-
 my_image1 = Image.open("1.jpg")
 my_image1 = ImageTk.PhotoImage(my_image1)
 
@@ -25,7 +24,6 @@ my_image6 = Image.open("6.jpg")
 my_image6 = ImageTk.PhotoImage(my_image6)
 
 image_list = [my_image1, my_image2, my_image3, my_image4, my_image5, my_image6]
-
 
 status=Label(
     root, 
